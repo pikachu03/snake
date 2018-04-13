@@ -28,6 +28,10 @@ function Snake() {
             if (d < 1) {
                 this.total = 0;
                 this.tail = [];
+		moveLeft = false;
+		moveRight = false;
+		moveUp = false;
+		moveDown = false;
             }
         }
     }
