@@ -34,8 +34,12 @@ function draw() {
 	s.update();
 	s.show();
 
+	fill(200);
 	textFont('arial', 20);
 	text("Score: " + (s.total + 1), 20, 20)
+
+	fill(100);
+	text("Developed by: \nAmitav Nott", width - 140, height - 40);
 
 	fill(255, 0, 100);
 	rect(food.x, food.y, scl, scl);
