@@ -34,6 +34,7 @@ function draw() {
 	s.update();
 	s.show();
 
+	fill(200);
 	textFont('arial', 20);
 	text("Score: " + (s.total + 1), 20, 20)
 
