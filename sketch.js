@@ -10,8 +10,7 @@ function setup() {
 	s = new Snake();
 	frameRate(15);
 
-	pickLocation() ;
-
+	pickLocation();
 }
 
 function pickLocation() {
@@ -43,9 +42,9 @@ function draw() {
 
 } 
 
-/* function mousePressed() {
-	s.total++;
-} */
+// function mousePressed() {
+// 	s.total++;
+// } 
 
 
 function keyPressed() {
