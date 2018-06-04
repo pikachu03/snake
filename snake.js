@@ -53,11 +53,13 @@ function Snake() {
 	}
 
 	this.show = function() {
-        fill(0, 200, 200);
+        fill(0, 255, 255);
+        stroke(0);
 
         for (var i = 0; i < this.total; i++) {
             rect(this.tail[i].x, this.tail[i].y, scl, scl);
         }
-		rect(this.x, this.y, scl, scl );
+        rect(this.x, this.y, scl, scl );
+        noStroke();
 	}
 }
